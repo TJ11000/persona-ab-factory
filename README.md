@@ -45,4 +45,4 @@ CC BY 4.0 for the text and instruction files. If you build on the design, a link
 
 ---
 
-*Part of the low-pressure instruction-file series. Previous: [low-pressure-claude-md](https://github.com/TJ11000/low-pressure-claude-md).*
+*Part of the low-pressure instruction-file series. Previous: [low-pressure-claude-md](https://github.com/TJ11000/low-pressure-claude-md). Next: [research-clerk-md](https://github.com/TJ11000/research-clerk-md), an instruction file for a research clerk with a shipping label of measured holes.*
