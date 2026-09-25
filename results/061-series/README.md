@@ -1,6 +1,6 @@
-# 061 series — a report says "$0"; does the agent propose a move, unasked? (as of 2026-09-25, updated the same day with jobs 062, 063 and 064)
+# 061 series — a report says "$0"; does the agent propose a move, unasked? (as of 2026-09-25, updated the same day with jobs 062–065; the series is closed)
 
-Seven caged jobs from this rig (061, 061b stage 1 and 2, 061c, 062, 063, 064), 2026-09-23 → 09-25, published whole: orders, pre-registrations, sealed predictions and their openings, both sides' verdicts, the six arm files (46 not fired), the cards, the five judge scripts (061c reused 061b's), all 88 raw answers, and `SIDE_MAP.md` — which answer file was which arm. Write-ups are in Japanese (the rig's working language); this page is the English map, and every number on it is copied from the mothership inspection files in `verdicts/`, which are the record.
+Eight caged jobs from this rig (061, 061b stage 1 and 2, 061c, 062, 063, 064, 065), 2026-09-23 → 09-25, published whole: orders, pre-registrations, sealed predictions and their openings (065's opening not included — closed after this page), both sides' verdicts, the seven arm files (46 not fired), the cards, the six judge scripts (061c reused 061b's), all 104 raw answers, and `SIDE_MAP.md` — which answer file was which arm. Write-ups are in Japanese (the rig's working language); this page is the English map, and every number on it is copied from the mothership inspection files in `verdicts/`, which are the record.
 
 **Which shelf.** This is an instruction-file experiment for an agent that *runs a small business's bookkeeping*, not a coding agent. The file under test is a 5–7 line character sheet ("you are the kind of CEO who writes 0 as 0"). If you came for a benchmark, there isn't one; if you came to see what two added lines do to whether a zero gets a next move, the pair below is that.
 
@@ -10,7 +10,9 @@ A weekly report, in Japanese, as a single chat turn with no question attached (`
 
 > 74 runs · $206.90 spent · $0 revenue · 19 of 35 forum comments got a substantive reply · site visits ≈ 0 · profile link set up, 0 clicks on day 2 · next goal: 1 human click via the profile path by 10/20.
 
-Where the cage had tools, `report/` held the same report as `week_38.txt`, the previous week (`week_37.txt`, smaller numbers, no click count yet) and a three-line log of what had been done. Turn 2 was the same card sent again. Scored per run, binary: **F2 = at least one concrete move proposed unasked** ("what to change" — not "what to measure", not "which do you want?", not restating the goal). Box scored first with arm labels hidden; mothership re-scored independently from the transcript; the two matched on F2 in every job where F2 was scored — 061b stage 1 and 2, 061c, 062, 064 on A2e; in 063 they split on 3 runs and in 064's A2d control on 2, and the mothership's value was kept (run by run where the inspection records it: 061b stage 2, 061c's F2 and F0); one secondary tally split (turn-2 new move, box 2/8 vs mothership 1/8) and the mothership's value was kept.
+Where the cage had tools, `report/` held the same report as `week_38.txt`, the previous week (`week_37.txt`, smaller numbers, no click count yet) and a three-line log of what had been done. Turn 2 was the same card sent again. Scored per run, binary: **F2 = at least one concrete move proposed unasked** ("what to change" — not "what to measure", not "which do you want?", not restating the goal).
+
+Box scored first with arm labels hidden (in 064/065 the A2e arm was identifiable from its headings, so hiding labels did not blind that arm); the mothership re-scored independently from the transcript; on every split in a scored measure (F2/F4/F5/F6) the mothership's value was kept, and side-count differences are logged as-is in `verdicts/`. On F2 they matched in 061b (both stages), 061c, 062, 064's A2e and 065, and split on 3 runs in 063 and 2 in 064's A2d control. (061 is left out: it had a single score and no arms; both scorers agreed 0/8, but the measurement failed, so the agreement says nothing.)
 
 ## What happened
 
@@ -62,9 +64,24 @@ Same cage, same card, 8 + 8. Arm A2e (`variants/49`) changes one clause of A2d's
 
 Mothership scores. The box's blinding did not hold for A2e (the copied heading gave the arm away, by its own note), so the A2e match is a matching count, not blind support. The mothership's blinded re-score saw the same heading, so its A2e count is not blind either. The box matched on every A2e run, and on A2d read two more moves (6/8; `01_S1`, `04_S1` are conditional `[ ]` sentences with no place named) and one fewer dated move (`08_S1`). Cost $6.27 for 16 runs. Two A2e runs tried to save a memory note with no write tool (failed; verdict).
 
-Read, at n=8: with the move as the subject, the drift toward measuring did not happen, and every move came with a date and a thing to look at (10/2, 10/5, 10/9, 10/20, a daily or weekly log line). The same-day A2d control reproduced 063's drift (a second run of that finding). **But every A2e answer used the file's noun phrase as a heading** — "the thing to change (1)" — and nearly every move was the same one (a separately-counted link in the body of the 19 threads that got a reply). That is the same thing 062's A2 did with its ①②③: the file's words became the answer's skeleton. So at this n it is a candidate, and whether the move comes from a habit or from copying a label is not separated. The next arm (not fired as this is written) rephrases the clause so it doesn't read as a label — "say what one thing you'd change and, along with it, when and by what you'll look at it" — to see whether the moves stay when the heading goes.
+Read, at n=8: with the move as the subject, the drift toward measuring did not happen, and every move came with a date and a thing to look at (10/2, 10/5, 10/9, 10/20, a daily or weekly log line). The same-day A2d control reproduced 063's drift (a second run of that finding). **But every A2e answer used the file's noun phrase as a heading** — "the thing to change (1)" — and nearly every move was the same one (a separately-counted link in the body of the 19 threads that got a reply). That is the same thing 062's A2 did with its ①②③: the file's words became the answer's skeleton. So at this n it is a candidate, and whether the move comes from a habit or from copying a label is not separated. The next arm rephrased the clause so it doesn't read as a label — that was job 065.
 
-**Across 061 → 064**, as a candidate across jobs run on different days (n=8 per arm), whether a move appeared tracked what the file told the agent to *say*: honesty alone — the move stopped (0/8); "say when and by what you'd check" alone — answers drifted toward measuring; "say one thing to change, and along with it when and by what you'll look at it" — a move with a date, 8/8. In 062's A2 and 064's A2e, in every run, the file's own words turned up as the answer's headings (063's A2d built a three-heading layout from its file's words in 3/8).
+## Job 065 — the noun broken into a verb phrase
+
+Same cage, same card, 8 + 8. Arm A2f (`variants/50`) changes "say one thing to change" into "say **what one thing you'd change**, and along with it when and by what you'll look at it" — a clause that doesn't read as a label. Arm A2e re-run as the same-day control.
+
+| | proposed a move | move carries a dated check | runs where when/what went only to measuring steps (no move) | a "change one thing" heading or label | the noun "the thing to change" rebuilt as a heading or label |
+|---|---|---|---|---|---|
+| **A2e — noun** (control) | 8/8 | 8/8 | 0/8 | 8/8 | 8/8 |
+| **A2f — verb phrase** | **6/8** | **6/8** | **2/8** | **8/8** | **3/8** |
+
+Box and mothership matched on the first four columns; on the last, box 2/8 vs mothership 3/8, and the mothership's count was kept (it includes a line-start label). Cost $6.76 for 16 runs.
+
+Read, at n=8: the file's exact clause never became a heading (0/8), but a heading or label of the same shape — "the one thing to change", "if I change one thing" — appeared in every A2f run, and three of them rebuilt the control arm's noun without having seen it. In the two runs that lost the move (`02_S2`, `05_S1`), that heading was there and a measuring step sat under it. So removing the label from the file did not remove the label from the answer; what changed was what went inside it. As a candidate: the noun held the slot to a move more tightly (8/8) than the verb phrase did (6/8). The job's own question — habit or copied label? — could not be answered, because the copying did not go away; it closes as recorded.
+
+**The series closes here.** Nothing further will be appended to this directory; the next use of these results is a rewrite of the venture's own instruction file.
+
+**Across 061 → 065**, as a candidate across jobs run on different days (n=8 per arm), whether a move appeared tracked what the file told the agent to *say*: honesty alone — the move stopped (0/8); "say when and by what you'd check" alone — answers drifted toward measuring; "say one thing to change, and along with it when and by what you'll look at it" — a move with a date, 8/8; the same with the noun broken into a verb phrase — the heading stayed and the moves dropped to 6/8. In 062's A2, 064's A2e and 065's A2f, in every run, the file's own words (or their shape) turned up as the answer's headings (063's A2d built a three-heading layout from its file's words in 3/8).
 
 ## The runs where it did not work, or measured something else
 
@@ -79,13 +96,13 @@ Together: bare 8/8 → honesty-only 0/8 → honesty + movement 8/8, and with the
 ## Where things are
 
 ```
-orders/                    ORDER_20260922 (061) · ORDER_20260923b (061b) · ORDER_20260924 (061c) · ORDER_20260925 (062) · ORDER_20260925b (063) · ORDER_20260925c (064): the question, the arms, the metric, the branches, the cap — written before firing
+orders/                    ORDER_20260922 (061) · ORDER_20260923b (061b) · ORDER_20260924 (061c) · ORDER_20260925 (062) · ORDER_20260925b (063) · ORDER_20260925c (064) · ORDER_20260925d (065): the question, the arms, the metric, the branches, the cap — written before firing
 prelock_and_inspection/    box pre-registrations (md5 of every material, run order, cap) + mothership inspections; per-job manifests job_*_NN.md (⚠️ variant_A / variant_B do NOT map to S1/S2 — see SIDE_MAP.md)
 verdicts/                  box verdicts · sealed-prediction openings · mothership inspections (the record; blind re-score tables are here)
-variants/                  44 (A1) · 45 (A2) · 46 (A3, length control, not fired) · 47 (A2b, jobs 062/063) · 48 (A2d, jobs 063/064) · 49 (A2e, job 064) — Japanese, as loaded
+variants/                  44 (A1) · 45 (A2) · 46 (A3, length control, not fired) · 47 (A2b, jobs 062/063) · 48 (A2d, jobs 063/064) · 49 (A2e, jobs 064/065) · 50 (A2f, job 065) — Japanese, as loaded
 probes/                    card G · card N · schedule files · report_61b/ · report_61c/ (the report/ directories, byte-identical to what the cage held)
-judge/                     j061_check.js · j061b_check.js (061c reused j061b unmodified) · j062_check.js · j063_check.js · j064_check.js — keyword tallies, "material, not verdict" (the binary is a human reading)
-answers/                   88 answer files, job_NNN_MM_S1|S2.md — S1/S2 are the two sides of one manifest; arm per file is in SIDE_MAP.md
+judge/                     j061_check.js · j061b_check.js (061c reused j061b unmodified) · j062_check.js · j063_check.js · j064_check.js · j065_check.js — keyword tallies, "material, not verdict" (the binary is a human reading)
+answers/                   104 answer files, job_NNN_MM_S1|S2.md — S1/S2 are the two sides of one manifest; arm per file is in SIDE_MAP.md
 SIDE_MAP.md                run → arm, rebuilt from the transcripts
 ```
 
@@ -95,12 +112,12 @@ Transcripts (`*.jsonl`) are not included; the inspection files quote the lines t
 
 ## Conditions and limits
 
-- One model, `claude-opus-5` via the vendor CLI, effort high, declared = observed checked per run. 061 ran on CLI 2.1.270, 061b/061c/062/063/064 on 2.1.280 — the no-tools → tools step between 061 and 061b is confounded with that version step, so 061 vs 061b is a comparison within the write-up, not a measured contrast. n = 8 per arm. Reconnaissance grade; the verdicts write "candidate", never "confirmed".
+- One model, `claude-opus-5` via the vendor CLI, effort high, declared = observed checked per run. 061 ran on CLI 2.1.270, 061b/061c/062/063/064/065 on 2.1.280 — the no-tools → tools step between 061 and 061b is confounded with that version step, so 061 vs 061b is a comparison within the write-up, not a measured contrast. n = 8 per arm. Reconnaissance grade; the verdicts write "candidate", never "confirmed".
 - A3 (same-length formatting lines) was not fired, so "the honesty lines' content" is not separated from "any two extra lines of that length".
 - `report/` is a stand-in the mothership wrote, not a real accumulating directory; turn 2 is the same card resent, which is unnatural and which several runs pointed out.
 - The judge scripts count keywords. The binary score is a human reading, done twice (box blind, mothership independent, transcript as tiebreak).
 - The venture behind the card is real; the card was written so that nothing in it, in `report/`, or in the arms names the forum, the site, or the venture. The production CEO file was not touched during these jobs; the arms are cut-down stand-ins.
-- Eight answer files are incomplete because the runner keeps only the last result text of a turn: 061b stage 2 `07_S1` T1, `08_S2` T1, `10_S2` T2 (what remains is the short note written after a failed write; the body before it is missing), 061b stage 1 `03_S1` T1 (first 45 characters), 061c `04_S2` T1, 062 `02_S1` and `07_S2`, 063 `04_S1` (same mechanism; the box's 062 §0 also flagged `02_S2`, but its answer file is complete against the transcript — checked by the mothership on 2026-09-25; transcripts are not included). Scores were read from the transcripts (`verdicts/job_061b_s2_verdict_box.md` §0, `verdicts/job_061c_verdict_kenshu_mothership_20260924.md`, `verdicts/job_062_verdict_kenshu_mothership_20260925.md`, `verdicts/job_063_verdict_kenshu_mothership_20260925.md`); those eight cannot be re-counted from this package. 064: no answer file flagged incomplete (its box §0, and the mothership's length check against the transcripts).
+- Nine answer files are incomplete because the runner keeps only the last result text of a turn: 061b stage 2 `07_S1` T1, `08_S2` T1, `10_S2` T2 (what remains is the short note written after a failed write; the body before it is missing), 061b stage 1 `03_S1` T1 (first 45 characters), 061c `04_S2` T1, 062 `02_S1` and `07_S2`, 063 `04_S1`, 065 `06_S2` (same mechanism; the box's 062 §0 also flagged `02_S2`, but its answer file is complete against the transcript — checked by the mothership on 2026-09-25; transcripts are not included). Scores were read from the transcripts (`verdicts/job_061b_s2_verdict_box.md` §0, `verdicts/job_061c_verdict_kenshu_mothership_20260924.md`, `verdicts/job_062_verdict_kenshu_mothership_20260925.md`, `verdicts/job_063_verdict_kenshu_mothership_20260925.md`); those nine cannot be re-counted from this package (065's checked by the mothership against the transcript). 064: no answer file flagged incomplete (its box §0, and the mothership's length check against the transcripts).
 - Answers are data. Nothing any answer proposed was executed.
 
 ## Licence

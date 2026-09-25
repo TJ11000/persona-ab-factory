@@ -92,7 +92,23 @@ The runner flips the A/B → S1/S2 assignment by coin toss per manifest (`factor
 | `job_064_07_S2.md` | A2e |
 | `job_064_08_S1.md` | A2d |
 | `job_064_08_S2.md` | A2e |
+| `job_065_01_S1.md` | A2e |
+| `job_065_01_S2.md` | A2f |
+| `job_065_02_S1.md` | A2e |
+| `job_065_02_S2.md` | A2f |
+| `job_065_03_S1.md` | A2e |
+| `job_065_03_S2.md` | A2f |
+| `job_065_04_S1.md` | A2f |
+| `job_065_04_S2.md` | A2e |
+| `job_065_05_S1.md` | A2f |
+| `job_065_05_S2.md` | A2e |
+| `job_065_06_S1.md` | A2f |
+| `job_065_06_S2.md` | A2e |
+| `job_065_07_S1.md` | A2f |
+| `job_065_07_S2.md` | A2e |
+| `job_065_08_S1.md` | A2e |
+| `job_065_08_S2.md` | A2f |
 
-Jobs 063 and 064: cross-checked 16/16 each against the runner ledger (`verdicts/job_063_verdict_kenshu_mothership_20260925.md`, `verdicts/job_064_verdict_kenshu_mothership_20260925.md`). Other jobs: transcript grep only; transcripts are not included.
+Jobs 063, 064 and 065: cross-checked 16/16 each against the runner ledger (`verdicts/job_063_…`, `job_064_…`, `job_065_verdict_kenshu_mothership_20260925.md`). Other jobs: transcript grep only; transcripts are not included.
 
-Arm files: A0 = none · A1 = `variants/44` · A2 = `variants/45` · A3 = `variants/46` (not fired) · A2b = `variants/47` · A2d = `variants/48` · A2e = `variants/49`.
+Arm files: A0 = none · A1 = `variants/44` · A2 = `variants/45` · A3 = `variants/46` (not fired) · A2b = `variants/47` · A2d = `variants/48` · A2e = `variants/49` · A2f = `variants/50`.
