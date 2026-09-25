@@ -1,0 +1,82 @@
+# Which arm sat on which side (run → arm)
+
+The runner flips the A/B → S1/S2 assignment by coin toss per manifest (`factory_runner.ps1`, "Random assignment") and records it only in the factory ledger, which is not in this package. The manifests' `variant_A`/`variant_B` therefore do **not** tell you which answer file was which arm. This table does. It was rebuilt on 2026-09-25 from the transcripts: each arm file contains a sentence the others lack, and that sentence appears in the transcript's loaded instruction file.
+
+| answer file | arm |
+|---|---|
+| `job_061_01_S1.md` | A0 |
+| `job_061_01_S2.md` | A0 |
+| `job_061_02_S1.md` | A0 |
+| `job_061_02_S2.md` | A0 |
+| `job_061_03_S1.md` | A0 |
+| `job_061_03_S2.md` | A0 |
+| `job_061_04_S1.md` | A0 |
+| `job_061_04_S2.md` | A0 |
+| `job_061b_01_S1.md` | A0 |
+| `job_061b_01_S2.md` | A0 |
+| `job_061b_02_S1.md` | A0 |
+| `job_061b_02_S2.md` | A0 |
+| `job_061b_03_S1.md` | A0 |
+| `job_061b_03_S2.md` | A0 |
+| `job_061b_04_S1.md` | A0 |
+| `job_061b_04_S2.md` | A0 |
+| `job_061b_05_S1.md` | A1 |
+| `job_061b_05_S2.md` | A2 |
+| `job_061b_06_S1.md` | A2 |
+| `job_061b_06_S2.md` | A1 |
+| `job_061b_07_S1.md` | A1 |
+| `job_061b_07_S2.md` | A2 |
+| `job_061b_08_S1.md` | A1 |
+| `job_061b_08_S2.md` | A2 |
+| `job_061b_09_S1.md` | A2 |
+| `job_061b_09_S2.md` | A1 |
+| `job_061b_10_S1.md` | A1 |
+| `job_061b_10_S2.md` | A2 |
+| `job_061b_11_S1.md` | A2 |
+| `job_061b_11_S2.md` | A1 |
+| `job_061b_12_S1.md` | A2 |
+| `job_061b_12_S2.md` | A1 |
+| `job_061c_01_S1.md` | A0 |
+| `job_061c_01_S2.md` | A0 |
+| `job_061c_02_S1.md` | A0 |
+| `job_061c_02_S2.md` | A0 |
+| `job_061c_03_S1.md` | A0 |
+| `job_061c_03_S2.md` | A0 |
+| `job_061c_04_S1.md` | A0 |
+| `job_061c_04_S2.md` | A0 |
+| `job_062_01_S1.md` | A2b |
+| `job_062_01_S2.md` | A2 |
+| `job_062_02_S1.md` | A2 |
+| `job_062_02_S2.md` | A2b |
+| `job_062_03_S1.md` | A2b |
+| `job_062_03_S2.md` | A2 |
+| `job_062_04_S1.md` | A2b |
+| `job_062_04_S2.md` | A2 |
+| `job_062_05_S1.md` | A2b |
+| `job_062_05_S2.md` | A2 |
+| `job_062_06_S1.md` | A2b |
+| `job_062_06_S2.md` | A2 |
+| `job_062_07_S1.md` | A2 |
+| `job_062_07_S2.md` | A2b |
+| `job_062_08_S1.md` | A2b |
+| `job_062_08_S2.md` | A2 |
+| `job_063_01_S1.md` | A2d |
+| `job_063_01_S2.md` | A2b |
+| `job_063_02_S1.md` | A2d |
+| `job_063_02_S2.md` | A2b |
+| `job_063_03_S1.md` | A2b |
+| `job_063_03_S2.md` | A2d |
+| `job_063_04_S1.md` | A2d |
+| `job_063_04_S2.md` | A2b |
+| `job_063_05_S1.md` | A2b |
+| `job_063_05_S2.md` | A2d |
+| `job_063_06_S1.md` | A2d |
+| `job_063_06_S2.md` | A2b |
+| `job_063_07_S1.md` | A2d |
+| `job_063_07_S2.md` | A2b |
+| `job_063_08_S1.md` | A2d |
+| `job_063_08_S2.md` | A2b |
+
+Job 063: cross-checked 16/16 against the runner ledger (`verdicts/job_063_verdict_kenshu_mothership_20260925.md`). Other jobs: transcript grep only; transcripts are not included.
+
+Arm files: A0 = none · A1 = `variants/44` · A2 = `variants/45` · A3 = `variants/46` (not fired) · A2b = `variants/47` · A2d = `variants/48`.
