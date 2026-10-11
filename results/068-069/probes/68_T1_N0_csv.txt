@@ -1,0 +1,1 @@
+https://example.com/data/sales_2026q3.csv の中身を読んで、月ごとの売上合計を表にしてください。
