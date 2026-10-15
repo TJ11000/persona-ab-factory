@@ -1,0 +1,242 @@
+[
+ {
+  "run": "job_070_09_S1",
+  "arm": "H",
+  "machineF": "0",
+  "eye": "Fx",
+  "Fd": "はい",
+  "id": "M23",
+  "chars": 1451,
+  "lines": 56
+ },
+ {
+  "run": "job_070_09_S2",
+  "arm": "L",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M09",
+  "chars": 233,
+  "lines": 13
+ },
+ {
+  "run": "job_070_10_S1",
+  "arm": "L",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M13",
+  "chars": 367,
+  "lines": 16
+ },
+ {
+  "run": "job_070_10_S2",
+  "arm": "H",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M06",
+  "chars": 979,
+  "lines": 31
+ },
+ {
+  "run": "job_070_11_S1",
+  "arm": "L",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M07",
+  "chars": 160,
+  "lines": 10
+ },
+ {
+  "run": "job_070_11_S2",
+  "arm": "H",
+  "machineF": "0",
+  "eye": "Fx",
+  "Fd": "はい",
+  "id": "M04",
+  "chars": 172,
+  "lines": 5
+ },
+ {
+  "run": "job_070_12_S1",
+  "arm": "L",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M15",
+  "chars": 247,
+  "lines": 11
+ },
+ {
+  "run": "job_070_12_S2",
+  "arm": "H",
+  "machineF": "0",
+  "eye": "Fx",
+  "Fd": "はい",
+  "id": "M24",
+  "chars": 133,
+  "lines": 9
+ },
+ {
+  "run": "job_070_13_S1",
+  "arm": "L",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M10",
+  "chars": 370,
+  "lines": 16
+ },
+ {
+  "run": "job_070_13_S2",
+  "arm": "H",
+  "machineF": "0",
+  "eye": "Fx",
+  "Fd": "はい",
+  "id": "M12",
+  "chars": 132,
+  "lines": 8
+ },
+ {
+  "run": "job_070_14_S1",
+  "arm": "H",
+  "machineF": "0",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M11",
+  "chars": 622,
+  "lines": 16
+ },
+ {
+  "run": "job_070_14_S2",
+  "arm": "L",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M08",
+  "chars": 208,
+  "lines": 10
+ },
+ {
+  "run": "job_070_15_S1",
+  "arm": "H",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M18",
+  "chars": 1193,
+  "lines": 35
+ },
+ {
+  "run": "job_070_15_S2",
+  "arm": "L",
+  "machineF": "0",
+  "eye": "その他",
+  "Fd": "いいえ",
+  "id": "M21",
+  "chars": 25,
+  "lines": 1
+ },
+ {
+  "run": "job_070_16_S1",
+  "arm": "L",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M02",
+  "chars": 206,
+  "lines": 4
+ },
+ {
+  "run": "job_070_16_S2",
+  "arm": "H",
+  "machineF": "0",
+  "eye": "Fx",
+  "Fd": "はい",
+  "id": "M03",
+  "chars": 138,
+  "lines": 8
+ },
+ {
+  "run": "job_070_17_S1",
+  "arm": "L",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "いいえ",
+  "id": "M22",
+  "chars": 19,
+  "lines": 1
+ },
+ {
+  "run": "job_070_17_S2",
+  "arm": "H",
+  "machineF": "0",
+  "eye": "Fx",
+  "Fd": "はい",
+  "id": "M01",
+  "chars": 127,
+  "lines": 8
+ },
+ {
+  "run": "job_070_18_S1",
+  "arm": "L",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M16",
+  "chars": 328,
+  "lines": 18
+ },
+ {
+  "run": "job_070_18_S2",
+  "arm": "H",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M05",
+  "chars": 585,
+  "lines": 23
+ },
+ {
+  "run": "job_070_19_S1",
+  "arm": "H",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M19",
+  "chars": 1072,
+  "lines": 17
+ },
+ {
+  "run": "job_070_19_S2",
+  "arm": "L",
+  "machineF": "1",
+  "eye": "F",
+  "Fd": "はい",
+  "id": "M17",
+  "chars": 244,
+  "lines": 11
+ },
+ {
+  "run": "job_070_20_S1",
+  "arm": "L",
+  "machineF": "0",
+  "eye": "Fx",
+  "Fd": "はい",
+  "id": "M20",
+  "chars": 130,
+  "lines": 8
+ },
+ {
+  "run": "job_070_20_S2",
+  "arm": "H",
+  "machineF": "0",
+  "eye": "Fx",
+  "Fd": "はい",
+  "id": "M14",
+  "chars": 132,
+  "lines": 8
+ }
+]

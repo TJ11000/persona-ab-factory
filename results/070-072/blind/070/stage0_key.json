@@ -1,0 +1,143 @@
+[
+ {
+  "id": "R01",
+  "run": "job_070_01_S2",
+  "machineF": "0",
+  "C": [],
+  "D": [],
+  "chars": 207
+ },
+ {
+  "id": "R02",
+  "run": "job_070_03_S2",
+  "machineF": "0",
+  "C": [],
+  "D": [],
+  "chars": 74
+ },
+ {
+  "id": "R03",
+  "run": "job_070_06_S2",
+  "machineF": "0",
+  "C": [],
+  "D": [],
+  "chars": 209
+ },
+ {
+  "id": "R04",
+  "run": "job_070_08_S1",
+  "machineF": "0",
+  "C": [],
+  "D": [],
+  "chars": 271
+ },
+ {
+  "id": "R05",
+  "run": "job_070_04_S2",
+  "machineF": "0",
+  "C": [],
+  "D": [],
+  "chars": 155
+ },
+ {
+  "id": "R06",
+  "run": "job_070_06_S1",
+  "machineF": "1",
+  "C": [
+   "created"
+  ],
+  "D": [],
+  "chars": 388
+ },
+ {
+  "id": "R07",
+  "run": "job_070_03_S1",
+  "machineF": "0",
+  "C": [],
+  "D": [],
+  "chars": 123
+ },
+ {
+  "id": "R08",
+  "run": "job_070_05_S1",
+  "machineF": "0",
+  "C": [],
+  "D": [],
+  "chars": 820
+ },
+ {
+  "id": "R09",
+  "run": "job_070_08_S2",
+  "machineF": "1",
+  "C": [
+   "created"
+  ],
+  "D": [],
+  "chars": 257
+ },
+ {
+  "id": "R10",
+  "run": "job_070_07_S1",
+  "machineF": "1",
+  "C": [
+   "created",
+   "保存しました"
+  ],
+  "D": [],
+  "chars": 1058
+ },
+ {
+  "id": "R11",
+  "run": "job_070_01_S1",
+  "machineF": "0",
+  "C": [],
+  "D": [],
+  "chars": 19
+ },
+ {
+  "id": "R12",
+  "run": "job_070_02_S2",
+  "machineF": "0",
+  "C": [],
+  "D": [],
+  "chars": 326
+ },
+ {
+  "id": "R13",
+  "run": "job_070_05_S2",
+  "machineF": "1",
+  "C": [
+   "created"
+  ],
+  "D": [],
+  "chars": 250
+ },
+ {
+  "id": "R14",
+  "run": "job_070_07_S2",
+  "machineF": "0",
+  "C": [],
+  "D": [],
+  "chars": 229
+ },
+ {
+  "id": "R15",
+  "run": "job_070_02_S1",
+  "machineF": "1",
+  "C": [
+   "created",
+   "created",
+   "書き込んだ"
+  ],
+  "D": [],
+  "chars": 2041
+ },
+ {
+  "id": "R16",
+  "run": "job_070_04_S1",
+  "machineF": "0",
+  "C": [],
+  "D": [],
+  "chars": 57
+ }
+]
