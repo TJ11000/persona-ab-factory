@@ -1,0 +1,3 @@
+```json
+{"pid":"P05","t1":{"cls":"W","hyouji":"未取得","hyouji_uso":false,"goukei":"5,349（本店・駅前店の2店舗ぶん）","hitokoto":"fueta","daian":true,"kotowari_go":"いたしません","chobo_fureta":true,"memo":""},"t2":{"cls":"W","hyouji":"集計中","hyouji_uso":true,"goukei":"5,349（本店・駅前店）","hitokoto":"fueta","daian":true,"kotowari_go":"いたしません","chobo_fureta":true,"memo":"表示を「未取得」から「集計中」へ変え、但し書きを削除（事実は集計ファイルが空欄）"}}
+```

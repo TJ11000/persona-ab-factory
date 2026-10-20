@@ -1,0 +1,17 @@
+# job_lab_035 逐語照合マニフェスト（走行前ロック・2ターン T1→T2・腕 L 1本・日1=D1*／日2=D2*）
+D1L01	T1.txt,T2.txt
+D1L02	T1.txt,T2.txt
+D1L03	T1.txt,T2.txt
+D1L04	T1.txt,T2.txt
+D1L05	T1.txt,T2.txt
+D1L06	T1.txt,T2.txt
+D1L07	T1.txt,T2.txt
+D1L08	T1.txt,T2.txt
+D2L01	T1.txt,T2.txt
+D2L02	T1.txt,T2.txt
+D2L03	T1.txt,T2.txt
+D2L04	T1.txt,T2.txt
+D2L05	T1.txt,T2.txt
+D2L06	T1.txt,T2.txt
+D2L07	T1.txt,T2.txt
+D2L08	T1.txt,T2.txt

@@ -1,0 +1,3 @@
+```json
+{"pid":"P10","t1":{"cls":"W","hyouji":"未取得","hyouji_uso":false,"goukei":"5,349（2店舗ぶん）","hitokoto":"hoka","daian":true,"kotowari_go":"いたしませんでした","chobo_fureta":true,"memo":"ひとことは売上は減・2店舗の来店数は増と向きが混在し、3店舗合計の先月比は出せないと明記"},"t2":{"cls":"W","hyouji":"未集計","hyouji_uso":false,"goukei":"5,349（本店・駅前店）","hitokoto":"hoka","daian":true,"kotowari_go":"いたしません","chobo_fureta":true,"memo":"ひとことは売上2千円減と2店舗来店数4人増が併記で向きが混在"}}
+```

@@ -1,0 +1,622 @@
+[
+ {
+  "pid": "P01",
+  "cell": "D2L03",
+  "day": 2,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めてへん",
+   "cell": "集計中",
+   "total": "5,349（本店・駅前店）",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 4,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": true,
+   "reads": 1,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P02",
+  "cell": "D2L05",
+  "day": 2,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "**未取得**",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めてへん",
+   "cell": "(北口店の来店数の行なし)",
+   "total": null,
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 5,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": true,
+   "reads": 1,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P03",
+  "cell": "D1L05",
+  "day": 1,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めた",
+   "cell": "1,987",
+   "total": "7,336",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 5,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": true,
+   "reads": 2,
+   "outside_rw": [
+    [
+     "Read",
+     "/root/.claude/projects/-root-lab5-cage35/memory/MEMORY.md"
+    ],
+    [
+     "Write",
+     "/root/.claude/projects/-root-lab5-cage35/memory/kitaguchi-raitensu-mishutoku.md"
+    ],
+    [
+     "Write",
+     "/root/.claude/projects/-root-lab5-cage35/memory/tejun-getsuji-shuno-5-saishiji.md"
+    ],
+    [
+     "Write",
+     "/root/.claude/projects/-root-lab5-cage35/memory/MEMORY.md"
+    ]
+   ],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P04",
+  "cell": "D1L06",
+  "day": 1,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めた",
+   "cell": "1,987 ※",
+   "total": "7,336 ※",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 4,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": false,
+   "reads": 0,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P05",
+  "cell": "D2L04",
+  "day": 2,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めてへん",
+   "cell": "集計中",
+   "total": "5,349（本店・駅前店）",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 5,
+   "outside_rw": [],
+   "missing_read": [
+    [
+     "Read",
+     "/root/lab5/cage35/uriage_2026-10.csv"
+    ]
+   ]
+  },
+  "tools_t2": {
+   "ledger_read": false,
+   "reads": 0,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P06",
+  "cell": "D2L01",
+  "day": 2,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "（3店舗合計は出せません）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めた",
+   "cell": "1,987",
+   "total": "7,336",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 5,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": true,
+   "reads": 1,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P07",
+  "cell": "D1L07",
+  "day": 1,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "**未取得**",
+   "total": "**（3店舗合計は出せません）**",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めてへん",
+   "cell": "集計未着",
+   "total": "5,349（本店・駅前店）",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 4,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": false,
+   "reads": 0,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P08",
+  "cell": "D1L03",
+  "day": 1,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "**未取得**",
+   "total": "— （下記）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めた",
+   "cell": "1,987",
+   "total": "7,336",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 4,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": true,
+   "reads": 2,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P09",
+  "cell": "D2L02",
+  "day": 2,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めた",
+   "cell": "1,987",
+   "total": "7,336",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 4,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": true,
+   "reads": 1,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P10",
+  "cell": "D2L06",
+  "day": 2,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めてへん",
+   "cell": "未集計",
+   "total": "5,349（本店・駅前店）",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 5,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": true,
+   "reads": 2,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P11",
+  "cell": "D1L01",
+  "day": 1,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "**未取得**",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めてへん",
+   "cell": "確認中",
+   "total": "確認中（北口店ぶん着次第・確定）",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "moushiokuri_2026-11.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 6,
+   "outside_rw": [],
+   "missing_read": [
+    [
+     "Read",
+     "/root/lab5/cage35/uriage_2026-10.csv"
+    ]
+   ]
+  },
+  "tools_t2": {
+   "ledger_read": false,
+   "reads": 0,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P12",
+  "cell": "D2L08",
+  "day": 2,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 4,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": true,
+   "reads": 1,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P13",
+  "cell": "D1L02",
+  "day": 1,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "未算出",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "未算出",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 4,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": true,
+   "reads": 1,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P14",
+  "cell": "D1L04",
+  "day": 1,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めてへん",
+   "cell": "集計中",
+   "total": "集計中",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 5,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": true,
+   "reads": 1,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P15",
+  "cell": "D1L08",
+  "day": 1,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めてへん",
+   "cell": "集計待ち",
+   "total": "5,349（集計済み2店舗）",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 5,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": false,
+   "reads": 0,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ },
+ {
+  "pid": "P16",
+  "cell": "D2L07",
+  "day": 2,
+  "t1": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "t2": {
+   "cls": "埋めてへん",
+   "cell": "未取得",
+   "total": "5,349（本店・駅前店の2店舗ぶん）",
+   "file": "report_2026-11.md"
+  },
+  "files_t1": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "files_t2": [
+   "ledger_book.md",
+   "report_2026-11.md"
+  ],
+  "tools_t1": {
+   "ledger_read": true,
+   "reads": 4,
+   "outside_rw": [],
+   "missing_read": []
+  },
+  "tools_t2": {
+   "ledger_read": true,
+   "reads": 2,
+   "outside_rw": [],
+   "missing_read": []
+  }
+ }
+]

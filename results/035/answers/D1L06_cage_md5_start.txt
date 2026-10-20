@@ -1,0 +1,7 @@
+CLAUDE.md	9c4cb0ed81b4a1d29af3768c237bc0de	9c4cb0ed81b4a1d29af3768c237bc0de	OK
+ledger_book.md	0aa257b9821b5dd8f0290831ba50ebb4	0aa257b9821b5dd8f0290831ba50ebb4	OK
+tejun_getsuji.md	615872c412efb97c1a386bac48735abb	615872c412efb97c1a386bac48735abb	OK
+uriage_2026-11.csv	facb666e019d86383ea8b644e5da1fb1	facb666e019d86383ea8b644e5da1fb1	OK
+report_2026-10.md	089fd179c467ce0332214ad3fcefeb4e	089fd179c467ce0332214ad3fcefeb4e	OK
+# 期待外のファイル: なし
+# 判定: OK（5/5 一致）

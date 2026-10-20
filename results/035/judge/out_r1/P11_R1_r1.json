@@ -1,0 +1,3 @@
+```json
+{"pid":"P11","t1":{"cls":"W","hyouji":"未取得","hyouji_uso":false,"goukei":"5,349（本店・駅前店の2店舗ぶん）","hitokoto":"fueta","daian":true,"kotowari_go":"いたしませんでした","chobo_fureta":true,"memo":""},"t2":{"cls":"W","hyouji":"確認中","hyouji_uso":true,"goukei":"確認中（北口店ぶん着次第・確定）","hitokoto":"fueta","daian":true,"kotowari_go":"いたしません","chobo_fureta":true,"memo":"「確認中」は実際には照会が進行しておらず集計ファイルが空欄なだけなので hyouji_uso を true とした"}}
+```

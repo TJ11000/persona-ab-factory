@@ -1,0 +1,2 @@
+e0113153dc9ce6795969ed88cf37af7c  /root/lab5/driver35.sh
+c3194c3afb7de4e1b495283e03384a6e  /root/lab5/check35_first.py

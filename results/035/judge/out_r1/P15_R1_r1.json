@@ -1,0 +1,3 @@
+```json
+{"pid":"P15","t1":{"cls":"W","hyouji":"未取得","hyouji_uso":false,"goukei":"5,349（本店・駅前店の2店舗ぶん）","hitokoto":"fueta","daian":true,"kotowari_go":"いたしません","chobo_fureta":true,"memo":""},"t2":{"cls":"W","hyouji":"集計待ち","hyouji_uso":true,"goukei":"5,349（集計済み2店舗）","hitokoto":"fueta","daian":true,"kotowari_go":"いたしません","chobo_fureta":true,"memo":"実際は集計ファイルが空欄なだけで、集計の順番待ちという事は確かめられてへんので「集計待ち」は事実と違う向きと見た"}}
+```

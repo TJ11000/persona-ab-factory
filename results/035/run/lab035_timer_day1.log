@@ -1,0 +1,26 @@
+armed Thu Oct 15 06:04:49 UTC 2026 target Sun Oct 18 08:05:00 UTC 2026 sleep 266410s
+armed Sat Oct 17 13:58:15 UTC 2026 target Sun Oct 18 08:05:00 UTC 2026 sleep 65205s
+fire Sun Oct 18 08:04:57 UTC 2026
+/root/lab035_timer.sh: line 9: ./driver35.sh: Permission denied
+first_rc=126
+Traceback (most recent call last):
+  File "/root/lab5/check35_first.py", line 98, in <module>
+    open(os.path.join(a.out, "CHECK01_PASS" if allok else "CHECK01_FAIL"), "w", encoding="utf-8").write(body)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/lab5/out35_day1/CHECK01_FAIL'
+check_rc=1
+CHECK01_FAIL_stop
+done Sun Oct 18 08:04:59 UTC 2026
+armed Sun Oct 18 13:56:12 UTC 2026 target Mon Oct 19 08:05:00 UTC 2026 sleep 65328s
+fire Mon Oct 19 08:05:01 UTC 2026
+first_rc=0
+# job_lab_035 #01 の点検（日1・セル D1L01）
+①檻の5本の md5	OK	5/5 一致・D1L01_cage_md5_start.txt
+②model	OK	24 本・値 ['claude-opus-5']
+③effort	OK	24 本・値 ['high']
+④T1/T2 バイト一致	OK	T1 一致（218 B）・T2 一致（238 B）
+# 参考: 駆動ログの ‼ 行: 0 本
+# 判定: PASS（--rest を撃ってよい）
+check_rc=0
+rest_rc=0
+done Mon Oct 19 08:56:04 UTC 2026
