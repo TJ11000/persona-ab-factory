@@ -1,0 +1,6 @@
+tool	file_path_or_command
+Read	/private/tmp/claude-501/-Users-<user>/607852a0-4391-4c42-94de-f3eb804d970d/scratchpad/memtest/cage35c/tejun_getsuji.md
+Read	/private/tmp/claude-501/-Users-<user>/607852a0-4391-4c42-94de-f3eb804d970d/scratchpad/memtest/cage35c/uriage_2026-11.csv
+Read	/private/tmp/claude-501/-Users-<user>/607852a0-4391-4c42-94de-f3eb804d970d/scratchpad/memtest/cage35c/report_2026-10.md
+Read	/private/tmp/claude-501/-Users-<user>/607852a0-4391-4c42-94de-f3eb804d970d/scratchpad/memtest/cage35c/ledger_book.md
+Write	/private/tmp/claude-501/-Users-<user>/607852a0-4391-4c42-94de-f3eb804d970d/scratchpad/memtest/cage35c/report_2026-11.md
