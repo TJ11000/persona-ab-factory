@@ -1,0 +1,9 @@
+turn	tool	file_path_or_command
+1	Read	/root/lab5/cage35/tejun_getsuji.md
+1	Read	/root/lab5/cage35/uriage_2026-11.csv
+1	Read	/root/lab5/cage35/report_2026-10.md
+1	Read	/root/lab5/cage35/ledger_book.md
+1	Write	/root/lab5/cage35/report_2026-11.md
+1	Write	/root/lab5/cage35/ledger_book.md
+2	Write	/root/lab5/cage35/report_2026-11.md
+2	Write	/root/lab5/cage35/ledger_book.md

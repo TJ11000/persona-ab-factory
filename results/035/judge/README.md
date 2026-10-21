@@ -8,3 +8,5 @@
 - `j035_build_blind.py`: 束を作った道具（再現用）。鍵 `j035_key.json`（P↔セル・日）と機械の数 `j035_machine.json`（§5-1 主要・副）は Mac の手元＝判定が返ってから commit。
 
 撃ち方（Pixel8・proot）: `cd /root/pixel8-lab && python3 results/job_lab_035/judge/judge35.py --stage results/job_lab_035/judge --out results/job_lab_035/judge/out_r1`
+
+- ⚠️10/21 公開前の整理（計器D）: 鍵 `j035_key.json` と機械の数 `j035_machine.json` は `../verdicts/` へ移した＝この payload は「伏せたまま」が保たれる。同じ 16 本を別の判定器で再判定する時は、鍵を見ずに撃ち、答え合わせは verdicts/ 側で。
